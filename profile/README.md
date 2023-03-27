@@ -33,13 +33,15 @@ You should install the appropriate dependencies from the list below for the PSRs
 
 ### Meta-Packages
 
-The `psr-discovery/all` meta-package will include all of the discovery packages listed below.
+The [psr-discovery/all](https://github.com/psr-discovery/all) meta-package includes all of the discovery suite packages. If you're looking for an all-in-one solution, this is the one you want.
 
 Installation:
 
 ```bash
 composer require psr-discovery/all
 ```
+
+See the following sections for more information on the individual usage of each package.
 
 ### PSR-18 HTTP Clients
 
