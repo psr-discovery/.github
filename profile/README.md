@@ -6,6 +6,7 @@ This is largely intended for inclusion in libraries like SDKs that wish to suppo
 
 -   [Requirements](#requirements)
 -   [Installation](#installation)
+    -   [Meta-Packages](#meta-packages)
     -   [PSR-18 HTTP Clients](#psr-18-http-clients)
     -   [PSR-17 HTTP Factories](#psr-17-http-factories)
     -   [PSR-14 Event Dispatchers](#psr-14-event-dispatchers)
@@ -30,12 +31,22 @@ The discovery of a particular interface requires the presence of a compatible im
 
 You should install the appropriate dependencies from the list below for the PSRs you wish to have discovery support for.
 
+### Meta-Packages
+
+The `psr-discovery/all` meta-package will include all of the discovery packages listed below.
+
+Installation:
+
+```bash
+composer require psr-discovery/all
+```
+
 ### PSR-18 HTTP Clients
 
 Installation:
 
 ```bash
-composer require --dev psr-discovery/http-client-implementations
+composer require psr-discovery/http-client-implementations
 ```
 
 Usage:
@@ -53,7 +64,7 @@ Please see the [psr-discovery/http-client-implementations](https://github.com/ps
 Installation:
 
 ```bash
-composer require --dev psr-discovery/http-factory-implementations
+composer require psr-discovery/http-factory-implementations
 ```
 
 Usage:
@@ -81,7 +92,7 @@ Please see the [psr-discovery/http-factory-implementations](https://github.com/p
 Installation:
 
 ```bash
-composer require --dev psr-discovery/event-dispatcher-implementations
+composer require psr-discovery/event-dispatcher-implementations
 ```
 
 Usage:
@@ -99,7 +110,7 @@ Please see the [psr-discovery/event-dispatcher-implementations](https://github.c
 Installation:
 
 ```bash
-composer require --dev psr-discovery/container-implementations
+composer require psr-discovery/container-implementations
 ```
 
 Usage:
@@ -117,7 +128,7 @@ Please see the [psr-discovery/container-implementations](https://github.com/psr-
 Installation:
 
 ```bash
-composer require --dev psr-discovery/cache-implementations
+composer require psr-discovery/cache-implementations
 ```
 
 Usage:
@@ -135,7 +146,7 @@ Please see the [psr-discovery/cache-implementations](https://github.com/psr-disc
 Installation:
 
 ```bash
-composer require --dev psr-discovery/log-implementations
+composer require psr-discovery/log-implementations
 ```
 
 Usage:
