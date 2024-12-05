@@ -4,26 +4,26 @@ The library currently supports [PSR-18 HTTP Clients](https://github.com/psr-disc
 
 This is largely intended for inclusion in libraries like SDKs that wish to support PSR interfaces without requiring hard dependencies on specific implementations or demanding extra configuration by users.
 
--   [Requirements](#requirements)
--   [Installation](#installation)
-    -   [Meta-Packages](#meta-packages)
-    -   [PSR-18 HTTP Clients](#psr-18-http-clients)
-    -   [PSR-17 HTTP Factories](#psr-17-http-factories)
-    -   [PSR-14 Event Dispatchers](#psr-14-event-dispatchers)
-    -   [PSR-11 Containers](#psr-11-containers)
-    -   [PSR-6 Caches](#psr-6-caches)
-    -   [PSR-3 Logs](#psr-3-logs)
--   [Handling Failures](#handling-failures)
--   [Exceptions](#exceptions)
--   [Singletons](#singletons)
--   [Mocking Priority](#mocking-priority)
--   [Preferring an Implementation](#preferring-an-implementation)
--   [Using a Specific Implementation](#using-a-specific-implementation)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [Meta-Packages](#meta-packages)
+  - [PSR-18 HTTP Clients](#psr-18-http-clients)
+  - [PSR-17 HTTP Factories](#psr-17-http-factories)
+  - [PSR-14 Event Dispatchers](#psr-14-event-dispatchers)
+  - [PSR-11 Containers](#psr-11-containers)
+  - [PSR-6 Caches](#psr-6-caches)
+  - [PSR-3 Logs](#psr-3-logs)
+- [Handling Failures](#handling-failures)
+- [Exceptions](#exceptions)
+- [Singletons](#singletons)
+- [Mocking Priority](#mocking-priority)
+- [Preferring an Implementation](#preferring-an-implementation)
+- [Using a Specific Implementation](#using-a-specific-implementation)
 
 ## Requirements
 
--   PHP 8.1+
--   Composer 2.0+
+- PHP 8.2+
+- Composer 2.0+
 
 The discovery of a particular interface requires the presence of a compatible implementation in the host application. This library does not install any implementations for you.
 
